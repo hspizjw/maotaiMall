@@ -1,0 +1,32 @@
+
+
+@import './mixins.scss';
+
+$color: green;
+
+.a {
+    color: $color;
+
+    @include border;
+
+    .b {
+        color: darken($color, 20);
+
+        @include border;
+    }
+}
+
+
+
+
+.nav{
+    height:100px;
+    a{
+        color:#fff;
+        &:hover{
+            color:#ff6600;
+        }
+    }
+}
+
+
