@@ -1,32 +1,844 @@
-
-
-@import './mixins.scss';
-
-$color: green;
-
-.a {
-    color: $color;
-
-    @include border;
-
-    .b {
-        color: darken($color, 20);
-
-        @include border;
-    }
+//@import './common.scss';
+.pcshop-pege {
+    float: right;
+    height: 30px
 }
 
+.pcshop-pege a {
+    display: block
+}
 
+.pcshop-pege .pegeto {
+    height: 32px;
+    float: left;
+    color: #666
+}
 
+.pcshop-pege .pegeto .pege_pegeto {
+    width: 60px
+}
 
-.nav{
-    height:100px;
-    a{
-        color:#fff;
-        &:hover{
-            color:#ff6600;
-        }
-    }
+.pcshop-pege .pegeto .pege_pegeto a {
+    color: #666
+}
+
+.pcshop-pege .pegeto .pege_pegeto:first-child {
+    margin-right: 20px
+}
+
+.pcshop-pege .pegeto .pege_pegeto:last-child {
+    margin-left: 20px
+}
+
+.pcshop-pege .pegeto li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-left: 2px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px
+}
+
+.pcshop-pege .pegeto li a {
+    color: #aaa
+}
+
+.pcshop-pege .pegeto .no {
+    border: none!important
+}
+
+.pcshop-pege .pegeto .color {
+    background: #CC3341;
+    border: 1px solid #CC3341
+}
+
+.pcshop-pege .Jump_page a,.pcshop-pege .Jump_page input {
+    height: 30px;
+    border: 1px solid #ddd;
+    line-height: 30px;
+    text-align: center
+}
+
+.pcshop-pege .pegeto .color a {
+    color: #fff!important
+}
+
+.pcshop-pege .Jump_page {
+    width: 164px;
+    float: left;
+    margin-left: 30px
+}
+
+.pcshop-pege .Jump_page input {
+    width: 40px;
+    margin-right: 3px
+}
+
+.pcshop-pege .Jump_page a {
+    display: block;
+    width: 58px;
+    float: right;
+    color: #aaa
+}
+
+.pcshop-clearfix {
+    width: 100%;
+    border-bottom: 3px solid #CC3341;
+    height: 40px;
+    clear: both
+}
+
+.pcshop-product-list .clearfix .title span {
+    color: #fff!important
+}
+
+.pcshop-pro_list .title {
+    color: #CC3341
+}
+
+.pcshop-pro_list .category {
+    padding-top: 10px
+}
+
+.pcshop-pro_list .proList {
+    background-color: #FFF;
+    clear: both
+}
+
+.pcshop-pro_list .proList .cla {
+    margin-top: -1px
+}
+
+.title_ti {
+    width: 100%;
+    height: 50px
+}
+
+.title_ti .Topbrand {
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 8px;
+    border: 1px solid #DCDCDC;
+    text-align: center;
+    background: #F7F7F7;
+    background-position: 139px 8px!important;
+    position: relative;
+    margin-right: 15px
+}
+
+.title_ti .Topbrand .filtratebox:hover {
+    display: block!important
+}
+
+.title_ti .Topbrand .filtratebox {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    z-index: 3;
+    top: 31px;
+    left: -1px;
+    background: #f7f7f7
+}
+
+.title_ti .Topbrand .filtratebox ul {
+    width: 200px!important;
+    height: auto!important;
+    line-height: normal!important;
+    float: none!important
+}
+
+.title_ti .Topbrand .filtratebox ul li {
+    float: left;
+    padding-left: 0!important;
+    height: 30px;
+    line-height: 30px
+}
+
+.title_ti .Topbrand .filtratebox ul li a {
+    display: block;
+    padding: 0 10px
+}
+
+.title_ti .Toptitledivtd {
+    float: left
+}
+
+.title_ti .Toptitlediv {
+    width: 120px;
+    line-height: 50px;
+    float: left;
+    text-align: center
+}
+
+.title_ti ul {
+    width: 850px;
+    clear: both
+}
+
+.title_ti ul .attrkeyword {
+    margin-right: 20px;
+    line-height: 48px
+}
+
+.title_ti ul li {
+    float: left;
+    line-height: 25px
+}
+
+.title_ti ul .checked {
+    background: #CC3341;
+    height: 25px;
+    line-height: 25px;
+    margin: 11px 20px 20px 0;
+    padding: 0 10px
+}
+
+.title_ti ul .checked a {
+    color: #fff
+}
+
+.product_list_top {
+    height: auto;
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    margin-top: -1px
+}
+
+.product_list_top .optionsBox {
+    height: auto;
+    width: 995px;
+    margin-left: 191px;
+    clear: both;
+    float: left;
+    position: relative
+}
+
+.product_list_top .optionsBox .options:hover ul {
+    display: block!important
+}
+
+.product_list_top .optionsBox .options {
+    height: 35px;
+    line-height: 35px;
+    margin-left: 0;
+    float: left;
+    margin-right: 20px
+}
+
+.product_list_top .optionsBox .options .property {
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+    float: left;
+    border: 1px solid #ddd;
+    padding-right: 10px;
+    margin-top: 4px
+}
+
+.product_list_top .optionsBox .options .property span {
+    display: block;
+    float: left
+}
+
+.product_list_top .optionsBox .options .property img {
+    float: left;
+    margin: 5px 0 0 10px
+}
+
+.product_list_top .optionsBox .options ul:hover {
+    display: block!important
+}
+
+.product_list_top .optionsBox .options ul {
+    display: none;
+    position: absolute;
+    height: auto;
+    width: 990px;
+    top: 35px;
+    left: -20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-left: 0!important;
+    clear: both;
+    float: left
+}
+
+.product_list_top .catalogNamecolor a,.product_list_top .color a,.product_list_top .pricecolor a {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    margin-top: 5px;
+    line-height: 25px
+}
+
+.product_list_top .product_list_title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    background: #f4f4f4;
+    padding-left: 20px;
+    line-height: 35px
+}
+
+.product_list_top .divclear {
+    clear: both
+}
+
+.product_list_top ul {
+    height: auto;
+    width: 734px;
+    margin-left: 180px;
+    clear: both;
+    float: left
+}
+
+.product_list_top ul li {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+    float: left
+}
+
+.product_list_top ul li a:hover {
+    color: #CC3341
+}
+
+.product_list_top ul li a {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    margin-top: 5px;
+    line-height: 25px
+}
+
+.product_list_top .importPrice {
+    float: left;
+    width: 276px
+}
+
+.product_list_top .importPrice span {
+    display: block;
+    width: 30px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    margin-top: 3px;
+    text-align: center
+}
+
+.product_list_top .importPrice div {
+    width: 90px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-top: 3px
+}
+
+.product_list_top .importPrice div input {
+    width: 89px;
+    height: 26px;
+    text-align: center
+}
+
+.product_list_top .importPrice a {
+    display: block;
+    width: 40px;
+    height: 27px;
+    background: #F7F7F7;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    line-height: 27px;
+    text-align: center;
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px
+}
+
+.pcshop-pro_list .list_top {
+    clear: both;
+    width: 1190px;
+    height: 40px;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-color: #FFF;
+    background: #F1F1F1;
+    margin-top: 10px
+}
+
+.pcshop-pro_list .list_top .list_top_left {
+    margin-left: 10px;
+    width: 60%;
+    height: auto;
+    float: left
+}
+
+.pcshop-pro_list .list_top .list_top_left ul {
+    width: auto;
+    padding: 8px 0
+}
+
+.pcshop-pro_list .list_top .list_top_left ul li {
+    float: left
+}
+
+.pcshop-pro_list .list_top .list_top_left ul li:first-child {
+    margin-left: -1px
+}
+
+.pcshop-pro_list .list_top .list_top_left ul li a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 51px;
+    line-height: 24px;
+    padding-left: 10px;
+    border: 1px solid #ebebeb;
+    color: #757575;
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/proList/icon_down_off.png) 36px center no-repeat #fff
+}
+
+.pcshop-pro_list .list_top .list_top_left ul li a.up {
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/proList/icon_up_off.png) 36px center no-repeat #fff
+}
+
+.pcshop-pro_list .list_top .list_top_left ul li.active a {
+    border: 1px solid #CC3341;
+    color: #FFF;
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/proList/icon_down_on.png) 36px center no-repeat #CC3341
+}
+
+.pcshop-pro_list .list_top .list_top_left ul li.active.up a {
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/proList/icon_up_on.png) 36px center no-repeat #CC3341
+}
+
+.pcshop-pro_list .list_top .list_top_right {
+    width: 38%;
+    height: auto;
+    float: right
+}
+
+.pcshop-pro_list .list_top .list_top_right .fo {
+    height: 40px;
+    line-height: 40px;
+    float: right
+}
+
+.pcshop-pro_list .list_top .list_top_right .fo span {
+    color: #CC3341
+}
+
+.pcshop-pro_list .list_top .list_top_right .pe {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    margin-left: 20px
+}
+
+.pcshop-pro_list .list_top .list_top_right .pe span {
+    width: 28px;
+    height: 22px;
+    display: block;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 22px;
+    float: left;
+    margin-top: 9px;
+    font-size: 18px;
+    color: #999
+}
+
+.pcshop-pro_list .top_titleb {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #F7F7F7;
+    border-color: #FFF;
+    background: #F9F9F9
+}
+
+.pcshop-pro_list .top_titleb .images {
+    width: 16px;
+    height: 14px;
+    display: block;
+    margin-top: 13px;
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/cart/cartno.png) no-repeat
+}
+
+.pcshop-pro_list .top_titleb .imagesT {
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/cart/cartyes.png) no-repeat!important
+}
+
+.pcshop-pro_list .top_titleb div {
+    padding-top: 5.4px;
+    float: right
+}
+
+.pcshop-pro_list .top_titleb div input {
+    height: 25px;
+    border: 1px solid #ccc
+}
+
+.pcshop-pro_list .top_titleb div a {
+    border: 1px solid #ccc;
+    display: block;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    float: right;
+    margin-left: -2px
+}
+
+.pcshop-pro_list .top_titleb ul {
+    height: 40px;
+    line-height: 40px;
+    width: 500px;
+    float: left
+}
+
+.pcshop-pro_list .top_titleb ul li {
+    float: left;
+    margin-left: 10px
+}
+
+.pcshop-pro_list .top_titleb ul li img {
+    float: left;
+    margin-top: 13.5px
+}
+
+.pcshop-pro_list .top_titleb ul li span {
+    display: block;
+    float: left
+}
+
+.pcshop-pro_list .clear {
+    clear: both
+}
+
+.pcshop-pro_list .cen_main {
+    width: 100%;
+    height: auto;
+    border-color: #FFF
+}
+
+.pcshop-pro_list .cen_main .No_items {
+    margin: 50px auto;
+    text-align: center
+}
+
+.pcshop-pro_list .cen_main .No_items img {
+    margin-bottom: 20px
+}
+
+.pcshop-pro_list .cen_main .No_items p {
+    color: #333
+}
+
+.pcshop-pro_list .cen_main ul li:hover {
+    background: #fffefe;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.19)
+}
+
+.pcshop-pro_list .cen_main ul li {
+    padding-top: 10px;
+    width: 237px;
+    height: 389px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    float: left
+}
+
+.pcshop-pro_list .cen_main ul li .main {
+    width: 90%;
+    margin-left: 5%;
+    position: relative
+}
+
+.pcshop-pro_list .cen_main ul li .main .shopNO_img {
+    position: absolute;
+    width: 100px;
+    top: 246px;
+    left: 100px
+}
+
+.pcshop-pro_list .cen_main ul li .main .img-box {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px;
+    background-position: center top!important;
+    background-size: cover!important
+}
+
+.pcshop-pro_list .cen_main ul li .main .Price {
+    color: #CC3341;
+    font-size: 18px
+}
+
+.pcshop-pro_list .cen_main ul li .main .pro-name:hover {
+    color: #CC3341
+}
+
+.pcshop-pro_list .cen_main ul li .main .pro-name {
+    margin: 5px 0;
+    color: #333
+}
+
+.pcshop-pro_list .cen_main ul li .main .pro-name em {
+    color: #CC3341;
+    padding-right: 2px
+}
+
+.pcshop-pro_list .cen_main ul li .main .evaluate {
+    margin: 5px 0
+}
+
+.pcshop-pro_list .cen_main ul li .main .evaluate span {
+    color: #3379d2;
+    font-weight: 700
+}
+
+.pcshop-pro_list .cen_main ul li .main .shop_home {
+    margin: 8px 0
+}
+
+.pcshop-pro_list .cen_main ul li .main img {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt {
+    clear: both
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt+.butt {
+    margin-left: -1px
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt i {
+    display: inline-block;
+    width: 16px;
+    height: 26px;
+    vertical-align: top;
+    margin-right: 5px
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt .icon-collection {
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/common/collect-off.png) center no-repeat
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt .icon-cart {
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/proList/proLista.png) center no-repeat
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt .on .icon-collection {
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/common/collect.png) center no-repeat
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt .on .collection-text {
+    color: #CC3341
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt span {
+    float: none
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt .btn {
+    width: 96px;
+    height: 26px;
+    border: 1px solid #ebebeb;
+    line-height: 26px;
+    border-radius: 2px;
+    padding: 0;
+    color: #999
+}
+
+.pcshop-pro_list .cen_main ul li .main .butt .btn+.btn {
+    margin-left: 16px
+}
+
+.pcshop-pro_list .cen_main ul li .main .shop_home {
+    height: 20px
+}
+
+.pcshop-pro_list .cen_main ul li .main .shop_home span {
+    display: block;
+    float: left;
+    color: #333;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 84%
+}
+
+.pcshop-pro_list .cen_main ul li .main .shop_home span:hover {
+    color: #CC3341
+}
+
+.pcshop-pro_list .cen_main ul li .main .shop_home img {
+    width: 20px;
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 0!important
+}
+
+.pcshop-pro_list .cen_main ul li .main .donation {
+    margin-bottom: 10px
+}
+
+.pcshop-pro_list .cen_main ul li .main .donation span {
+    float: left;
+    margin-right: 10px;
+    line-height: initial
+}
+
+.pcshop-pro_list .cen_main ul li .main .CommodityInsets {
+    height: 29px;
+    z-index: 3;
+    margin-left: 19px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    width: 182px;
+    position: relative
+}
+
+.pcshop-pro_list .cen_main ul li .main .CommodityInsets .CommodityInsets_list {
+    position: absolute
+}
+
+.pcshop-pro_list .cen_main ul li .main .CommodityInsets ul .color {
+    border: 1px solid #CC3341!important
+}
+
+.pcshop-pro_list .cen_main ul li .main .CommodityInsets ul li {
+    width: 26px;
+    height: 26px;
+    padding-top: 0;
+    border: 1px solid #EBEBEB;
+    margin: 0 4px
+}
+
+.pcshop-pro_list .cen_main ul li .main .CommodityInsets ul li img {
+    width: 25px;
+    height: 25px
+}
+
+.pcshop-pro_list .cen_main ul li .main .CommodityInsets ul li a {
+    display: block;
+    height: 25px;
+    width: 100%;
+    background-position: center top!important;
+    background-size: cover!important
+}
+
+.pcshop-pro_list .cen_main ul li .main .ScrollButton {
+    position: absolute;
+    width: 213px;
+    height: 25px;
+    top: 211px;
+    left: 0
+}
+
+.pcshop-pro_list .cen_main ul li .main .ScrollButton .ScrollButton_left {
+    display: block;
+    width: 15px;
+    height: 25px;
+    float: left
+}
+
+.pcshop-pro_list .cen_main ul li .main .ScrollButton .ScrollButton_left img {
+    width: 100%
+}
+
+.pcshop-pro_list .cen_main ul li .main .ScrollButton .ScrollButton_right {
+    float: right;
+    display: block;
+    width: 15px;
+    height: 25px
+}
+
+.Selling .main ul li .hot-icon,.Selling .main ul li a {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px
+}
+
+.Selling,.pcshop-pro_list .cen_main ul li .main .ScrollButton .ScrollButton_right img {
+    width: 100%
+}
+
+.Selling {
+    height: 269px
+}
+
+.Selling .full {
+    width: 100%;
+    height: 100%
+}
+
+.Selling .top {
+    border-bottom: 1px solid #F7F7F7;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    color: #666;
+    padding-left: 10px;
+    font-weight: 700
+}
+
+.Selling .main ul li:first-child {
+    margin-left: 8px
+}
+
+.Selling .main ul li {
+    height: 240px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 95.4px
+}
+
+.Selling .main ul li a {
+    color: #999;
+    height: 100%
+}
+
+.Selling .main ul li .hot-icon {
+    position: absolute;
+    top: 10px;
+    left: -8px;
+    width: 22px;
+    height: 22px;
+    color: #FFF;
+    line-height: 26px;
+    background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/shop_home/icon-hot.png) center no-repeat;
+    z-index: 10
+}
+
+.Selling .main ul li .main_img {
+    width: 160px;
+    height: 160px;
+    margin: 20px auto 10px
+}
+
+.Selling .main ul li .hot-info .red {
+    font-size: 14px;
+    color: #CC3341
 }
 
 

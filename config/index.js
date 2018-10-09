@@ -20,30 +20,54 @@ const config = {
     },
 
     //项目页面
-    pages: [ 'index', 'list', 'car' ],
+    pages: [ 'index','car','details','register','common' ],
     cssoptions: {// css配置
         'index': { 
-            'common': [ //css合并
+          /*  'common': [ //css合并
                 './src/stylesheets/reset.scss',
                 './src/views/index/stylesheets/common/*.scss'
-            ],
+            ],*/
             'index': './src/views/index/stylesheets/index/*.scss'
         },
-        'list': {
-            'list': [
-                './src/stylesheets/reset.scss',
-                './src/views/list/*/*.scss'
-            ]
+        'details': {
+                'details': './src/views/details/stylesheets/details.scss'
+                //'common': './src/views/details/stylesheets/common.scss'
+        },
+        'car': {
+                'car': './src/views/car/stylesheets/car.scss'
+                //'common': './src/views/car/stylesheets/common.scss'
+        },
+        'register': {
+                'register': [
+                    './src/views/register/stylesheets/register.scss',
+                    './src/views/register/stylesheets/retcss.scss',
+                ]
+        },
+        'common':{
+            'common':'./src/views/common/stylesheets/common.scss'
         }
     },
 
     //js配置
     jsoptions: {
         'index': {
-            index: './src/views/index/javascripts/index.js',
-            vendor: './src/views/index/javascripts/vendor.js'
+            index: './src/views/index/javascripts/index.js'
         },
-        'list': './src/views/list/javascripts/list.js'
+        'details': {
+            'details': './src/views/details/javascripts/details.js'
+            //'common': './src/views/details/javascripts/common.js'
+        },
+        'register': {
+            'register': './src/views/register/javascripts/register.js'
+        },
+        'car': {
+            'car': './src/views/car/javascripts/car.js'
+            //'common': './src/views/car/javascripts/common.js'        
+        },
+        'common':{
+            'common': './src/views/common/javascripts/common.js'        
+        }
+
     },
     //将所有页面的image文件夹移到对应文件夹下
     imgoptions :{

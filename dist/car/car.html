@@ -4,9 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>购物车</title>
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../common/css/common.min.css">
+    <link rel="stylesheet" href="/car/css/car.min.css">
+    <!-- endinject -->
 </head>
+<script src="../jquery-1.11.1.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
 <body>
-    <h1>Hello Car</h1>
+  <header></header>
+      
+  <div class="main">
+    <div class="main_con">
+      <div class="list_top">
+        <div class="top_left">全部商品</div>
+      </div>
+      <div class="list_title">
+        <div class="all_check">
+          <input type="checkbox" checked="checked" />全选
+        </div>
+        <span>商品</span>
+        <span>单价</span>
+        <span>数量</span>
+        <span>小计</span>
+        <span>操作</span>
+      </div>
+      <div class="list_con">
+        <div class="list_mall">
+          <div class="all_check">
+            <input type="checkbox" checked="checked" />
+          <span>茅台商城</span>
+          </div>
+        </div>
+      </div>
+      <div class="list">
+      </div>
+      <div class="list_setting">
+        <div class="set_left">
+          <div class="all_check">
+            <input type="checkbox" checked="checked"/>全选
+          </div>
+          <a href="javascript:;">删除所选中的商品</a>
+        </div>
+        <div class="set_right">
+          <a href="javascript:;">
+            <span>去结账</span>
+          </a>
+          <div class="computed">已选中<span></span> 件商品 总价: <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+ <!-- inject:js -->
+    <script src="/car/js/car.min.js"></script>
+    <script src="../common/js/common.min.js"></script>
+    
+    <!-- endinject -->
+<script type="text/javascript">
+  $("header").load('../common/common.html');
+</script>
 </html>
+
+
+
+

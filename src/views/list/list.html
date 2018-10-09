@@ -6,11 +6,73 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- inject:css -->
+    <link rel="stylesheet" href="css/list.min.css">
     <!-- endinject -->
 </head>
+<script src="../jquery-1.11.1.min.js"></script>
+   
 <body>
-    <h1>Hello List</h1>
-    <!-- inject:js -->
-    <!-- endinject -->
+        <div class="pcshop-div_main ">
+        <div class="proList pcshop-div_main">
+            <div class="list_top">
+                <div class="list_top_left">
+                    <ul class="pro_list_t clearfix">
+                        <li class="active" data-sorttype="0"><a href="javascript:void(0)" class="images">综合</a></li>
+                        <li class="" data-sorttype="1"><a href="javascript:void(0)" class="images">销量</a></li>
+                        <li class="" data-sorttype="3"><a href="javascript:void(0)" class="images">新品</a></li>
+                        <li class="" data-sorttype="4"><a href="javascript:void(0)" class="images">价格</a></li>
+                    </ul>
+                </div>
+                <div class="list_top_right">
+                    <div class="pe clearfix forjs_updatePage">
+                        <a href="javascript:void(0)" class="pege_topa"><span><</span></a>
+                        <a href="javascript:void(0)" class="pege_topb"><span>></span></a>
+                    </div>
+                    <div class="fo">
+                        共<span class="itemstotal">0</span> 件商品 <span class="spant1">0</span>/<a href="javascript:void(0)" class="spant2">0</a>
+                    </div>
+                </div>
+            </div>
+            <div class="top_titleb">
+                <ul>
+                    <li class="titleb_buttom"><a href="javascript:void(0)"><span class="images"></span><input value="1" type="text" style="display:none;"><span>仅显示有货</span></a></li>
+                </ul>
+                <div>
+                    <input type="text" class="keyword" maxlength="30" placeholder="在结果中搜索" /><a href="javascript:void(0)" class="keyword_but">确定</a>
+                </div>
+            </div>
+            <div class="cen_main">
+                <div class="No_items" style="display: none;">
+                    <img src="https://prod-oss.emaotai.cn/front-assets/assets/image/proList/shopno.png" alt="">
+                    <p>您搜索的商品暂无,请重新搜索</p>
+                </div>
+                <ul class="product_listmain">
+                    <!--js异步加载模板 -->
+
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div id="pageBtnList" style="height: 50px;">
+                <div class="pcshop-row">
+    <div class="pcshop-pege forjs_main">
+        
+    </div>
+</div>
+            </div>
+        </div>
+        <div class="Selling">
+
+        </div>
+    </div>
+
+</div>
 </body>
+<!-- inject:js -->
+    <script src="/list/js/list.min.js"></script>
+
+<!-- endinject -->
+<script>
+  $("header").load('common.html');
+</script>
+
 </html>

@@ -1,0 +1,117 @@
+.register-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #f3f3f3;
+}
+.header {
+	height: 90px;
+	width: 100%;
+	background: #fff;
+}
+.logo-img {
+	width: 225px;
+	height: 80px;
+	background: url('https://prod-oss.emaotai.cn/supplychain-dev/test/home/C5EGxWC522.jpg') no-repeat center;
+}
+.form-container {
+	position: absolute;
+	top: 90px;
+	right: 0;
+	bottom: 147px;
+	left: 0;
+	background: url('https://prod-oss.emaotai.cn/front-assets/assets/image/login/login_bg.png') no-repeat center;
+}
+.form-content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 407px;
+	background: #fff;
+}
+.form {
+	margin: 10px;
+}
+.form-tabBar {
+	height: 45px;
+}
+.form-tab {
+	float: left;
+	width: 50%;
+	line-height: 45px;
+	text-align: center;
+	background: #ccc;
+}
+.form-input {
+	margin: 5px auto;
+	width: 333px;
+}
+.wraning {
+	display: inline-block;
+	height: 20px;
+	visibility: hidden;
+	line-height: 20px;
+	color: #CC3341;
+} 
+.input-content {
+	height: 41px;
+	/*width: 330px;*/
+	border: 1px solid #ddd;
+}
+.form-title {
+	height: 16px;
+	margin-top: 12px;
+	width: 90px;
+	float: left;
+	text-align: center;
+	line-height: 16px;
+}
+.form-item {
+	float: left;
+	height: 40px;
+	width: 220px;
+	font-size: 12px;
+	line-height: 40px;
+	padding-left: 20px;
+} 
+.copy-right {
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+	height: 72px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666; 
+}
+.click-box {
+	margin-bottom: 36px;
+	width: 405px;
+	height: 18px;
+	color: #0058a2;
+}
+.code-login {
+	float: left;
+	margin-left: 20px;
+}
+.forget-password {
+	float: right;
+	margin-right: 20px;
+}
+.code {
+	line-height: 40px;
+}
+.submit-btn {
+	line-height: 48px;
+	width: 333px;
+	background: #cc3341;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+}
+
+

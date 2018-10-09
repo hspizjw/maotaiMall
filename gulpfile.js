@@ -66,7 +66,7 @@ gulp.task('handle:css', function () {
     return merge( ...streams )//合并多个文件流
 })
 // js es6-> es5 合并 压缩
-gulp.task('handle:js', function () {
+/*gulp.task('handle:js', function () {
     let streams = []
     for (const page in config.jsoptions) {
         //如果入口是数组或字符串,就是单出口，否则是多出口
@@ -93,7 +93,22 @@ gulp.task('handle:js', function () {
         streams.push(stream)
     }
     return merge( ...streams )
+})*/
+
+
+gulp.task('handle:js', function () {
+    let streams = []
+    for (const page in config.jsoptions) { 
+        for (const file in config.jsoptions[page]) { // 遍历各个页面中的多个打包css文件配置
+            let stream = gulp.src(config.jsoptions[page][file])
+                .pipe(rename({suffix:'.min'})) 
+                .pipe(gulp.dest('./dist/'+ page +'/js')) 
+            streams.push(stream) 
+        }
+    }
+    return merge( ...streams )//合并多个文件流
 })
+
 
 //给各个页面的html文件添加对应依赖
 gulp.task('inject', function () {

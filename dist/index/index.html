@@ -6,50 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- inject:css -->
-    <link rel="stylesheet" href="/index/css/common.min.css">
     <link rel="stylesheet" href="/index/css/index.min.css">
+    <link rel="stylesheet" href="../common/css/common.min.css">
     <!-- endinject -->
 </head>
+<script src="../jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
 <body>
-
 <div class="indextop">
   <img src="images/indextop.png" class="bg">
   <img src="images/shut.png" class="shut">
 </div>
-<nav>
-  <ul>
-    <li><a href="">首页</a><b>|</b></li>
-    <li>你好, <a href=""><span> 17862981186 </span></a><a href="">退出</a><b>|</b></li>
-    <li><a href="">我的订单</a><b>|</b></li>
-    <li><a href="">个人中心</a><b>|</b></li>
-    <li><a href="">我的收藏</a><b>|</b></li>
-    <li><a href="">我的消息</a><b>|</b></li>
-    <li><a href="">酒文化</a><b>|</b></li>
-    <li><a href="">发票查询</a><b>|</b></li>
-    <li><a href="">领券中心</a><b>|</b></li>
-    <li><a href="">精品采购</a><b>|</b></li>
-    <li><a href="">内部登录</a></li>
-  </ul>
-</nav>
-<div class="search">
-  <div class="logo">
-    <img src="images/logo.jpg">
-  </div>
-  <div class="logo_r">
-    <img src="images/logor.jpg">
-  </div>
-  <div class="search_con">
-    <div class="sear_ipt">
-      <input type="text" placeholder="贵州茅台酒"/>
-      <input type="text"/>
+<header></header>
+<div class="fixed_search">
+  <div class="fixser_con">
+    <img src="images/fixedtop.jpg">
+    <div class="fixser_ipt">
+          <input type="text" class="search_ipt_con" placeholder="习酒"/>
+          <input type="text"/>
     </div>
-    <div class="keyword">
-      <li><a href="">贵州茅台酒</a></li>
-      <li><a href="">习酒</a></li>
-      <li><a href="">葡萄酒</a></li>
-      <li><a href="">茅台醇</a></li>
-      <li><a href="">茅台王子酒</a></li>
-      <li><a href="">茅台迎宾酒</a></li>
+  </div>
+  <div class="fixthin_con">
+    <div class="fix_think">
+      <span>关闭</span>
     </div>
   </div>
 </div>
@@ -68,39 +47,1126 @@
     </div>
     <div class="center">
       <ul>
-        <li><a href="">首页</a></li>
-        <li><a href="">茅台定制</a></li>
-        <li><a href="">精品生活</a></li>
+        <li><a href="javascript:;">首页</a></li>
+        <li><a href="javascript:;">茅台定制</a></li>
+        <li><a href="javascript:;">精品生活</a></li>
       </ul>
     </div>
   </div>
 </div>
 <div class="banner">
-  <ul>
-    <li><a href=""><img src="images/banner.jpg"></a></li>
-    <li><a href=""><img src=""></a></li>
-    <li><a href=""><img src=""></a></li>
+  <ul class="banner_ul">
+    <li><a class="bannerbg" href="" style="background:url(images/banner.jpg) center "></a></li>
+    <li><a class="bannerbg" href="" style="background:url(images/banner1.jpg) center "></a></li>
+    <li><a class="bannerbg" href="" style="background:url(images/banner2.jpg) center "></a></li>
+    <li><a class="bannerbg" href="" style="background:url(images/banner3.jpg) center "></a></li>
   </ul>
+  
+  <div class="menu_con">
+    <div class="menu">
+    <div class="menu_right">
+      <div class="wrap">
+        <div class="notice">
+          <p>商城公告</p>
+          <a href="" class="more">更多</a>
+          <ul>
+            <li><a href="">茅台商城新版上线公告</a></li>
+            <li><a href="">茅台商城关于物流配送的公告</a></li>
+            <li><a href="">茅台商城购物须知</a></li>
+            <li><a href="">官方温馨提示</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="meun_rightimg">
+        <img src="images/menuright.jpg" alt="">
+      </div>
+    </div>
+    <div class="menu_left">
+      <div class="menu_lefthide"></div>
+      <div class="menu_flor">
+        <div class="list_con">
+          <div class="top_title">
+          <span>贵州茅台酒</span>
+          </div>
+          <ul>
+            <li><a href="">飞天茅台酒</a></li>
+            <li><a href="">五星茅台酒</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu_flor">
+        <div class="list_con">
+          <div class="top_title">
+          <span>茅台酱香系列酒</span>
+          </div>
+          <ul>
+            <li><a href="">茅台王子酒</a></li>
+            <li><a href="">茅台迎宾酒</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu_flor">
+        <div class="list_con">
+          <div class="top_title">
+          <span>习酒馆</span>
+          </div>
+          <ul>
+            <li><a href="">窖藏系列</a></li>
+            <li><a href="">金质系列</a></li>
+            <li><a href="">习酱系列</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu_flor">
+        <div class="list_con">
+          <div class="top_title">
+          <span>葡萄酒馆</span>
+          <span>生态农业馆</span>
+          </div>
+          <ul>
+            <li><a href="">干红葡萄酒</a></li>
+            <li><a href="">干白葡萄酒</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu_flor">
+        <div class="list_con">
+          <div class="top_title">
+          <span>技开酒馆</span>
+          <span>保健酒馆</span>
+          </div>
+          <ul>
+            <li><a href="">酱香醇</a></li>
+            <li><a href="">健酱世家</a></li>
+            <li><a href="">茅乡酒</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu_flor">
+        <div class="list_con">
+          <div class="top_title">
+          <span>黔茅酒馆</span>
+          <span>白金酒馆</span>
+          </div>
+          <ul>
+            <li><a href="">黔茅酒</a></li>
+            <li><a href="">白金酒</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu_flor">
+        <div class="list_con">
+          <div class="top_title">
+          <span>精品生活</span>
+          </div>
+          <ul>
+            <li><a href="">贵茶</a></li>
+            <li><a href="">兰馨</a></li>
+            <li><a href="">酒滴</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="dot">
+    <a href="javascript:;"></a>
+    <a href="javascript:;"></a>
+    <a href="javascript:;"></a>
+    <a href="javascript:;"></a>
+  </div>
 </div>
 <div class="ban_bot">
   <div class="ban_bot_top">
-    <div class="title">
+    <div class="title title1">
       <img src="images/bannerbot.png">
     </div>
-    <div class="title">
+    <div class="title title2">
       <img src="images/bannerbot1.png">
     </div>
-    <div class="title">
+    <div class="title title3">
       <img src="images/bannerbot2.png">
     </div>
   </div>
-  <div class="ban_bot_bot">
-    
+  <div class="brand">
+    <div class="brand_con">
+      <div class="left">
+        <span>茅台品牌馆</span>
+        <span>品牌直达，你想要的这里都有</span>
+      </div>
+      <div class="brand_cen">
+        <div class="ul_con">
+          <ul>
+            <li><img src="images/icon.jpg"><span>贵州茅台酒</span></li>
+            <li><img src="images/icon1.jpg"><span>茅台醇</span></li>
+            <li><img src="images/icon2.jpg"><span>悠蜜</span></li>
+            <li><img src="images/icon.jpg"><span>茅台葡萄酒</span></li>
+            <li><img src="images/icon1.jpg"><span>习酒</span></li>
+            <li><img src="images/icon2.jpg"><span>白金酒</span></li>
+            <li><img src="images/icon.jpg"><span>赖茅管</span></li>
+            <li><img src="images/icon1.jpg"><span>盟特联行</span></li>
+            <li><img src="images/icon2.jpg"><span>贵茶</span></li>
+            <li><img src="images/icon.jpg"><span>兰馨</span></li>
+            <li><img src="images/icon1.jpg"> <span>滴酒</span></li>
+            <li><img src="images/icon2.jpg"><span>黔茅</span></li>
+            <li><img src="images/icon.jpg"><span>保健酒</span></li>
+            <li><img src="images/icon1.jpg"><span>前老管</span></li>
+          </ul>
+        </div>
+        <div class="button">
+          <div class="btn leftbtn">
+            <img src="images/iconleft.png">
+          </div>
+          <div class="btn rightbtn">
+            <img src="images/iconright.png">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<div class="discount">
+  <div class="top">
+    <h3>特惠专区</h3>
+    <a href="javascript:,">热销推荐</a>
+  </div>
+  <div class="dis_pro">
+    <ul>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <div class="disimg">
+            <img src="images/discount1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+            <span>￥1,499.00</span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="maotai">
+  <div class="one">
+    <div class="top">
+      <div class="title">
+      <h3>贵州茅台酒</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="one_pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winedes.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/onepro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<section>
+  <div class="floor first">
+    <div class="top">
+      <div class="title">
+      <h3>茅台酱香系列酒</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winelogo.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/firstpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/firstpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/firstpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/firstpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="floor second">
+    <div class="top">
+      <div class="title">
+      <h3>习酒</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winelogo1.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/secondpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/secondpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/secondpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/secondpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="floor third">
+    <div class="top">
+      <div class="title">
+      <h3>茅台葡萄酒</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winelogo2.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/thirdpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/thirdpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/thirdpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/thirdpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="floor forth">
+    <div class="top">
+      <div class="title">
+      <h3>生态农业酒馆</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winelogo3.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/forthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/forthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/forthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/forthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="floor fifth">
+    <div class="top">
+      <div class="title">
+      <h3>技开酒馆</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winelogo4.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/fifthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/fifthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/fifthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/fifthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="floor sixth">
+    <div class="top">
+      <div class="title">
+      <h3>保健酒管</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winelogo5.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/sixthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/sixthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/sixthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/sixthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="floor seventh">
+    <div class="top">
+      <div class="title">
+      <h3>白金酒馆</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winelogo6.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/seventhpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/seventhpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/seventhpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/seventhpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="floor eighth">
+    <div class="top">
+      <div class="title">
+      <h3>精品生活</h3>
+      </div>
+      <ul>
+        <li><a href="javascript:;">生肖茅台酒</a></li>
+        <li><a href="javascript:;">陈年茅台酒</a></li>
+        <li><a href="javascript:;">礼盒茅台酒</a></li>
+        <li><a href="javascript:;">茅台纪念酒</a></li>
+        <li><a href="javascript:;">五星茅台酒</a></li>
+        <li><a href="javascript:;">飞天茅台酒</a></li>
+        <li><a href="javascript:;">贵州茅台酒</a></li>
+      </ul>
+    </div>
+    <div class="pro">
+      <div class="left">
+        <a href="javascript:;">
+          <img src="images/winelogo7.jpg" alt="">
+        </a>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/eighthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/eighthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/eighthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+          <li>
+           <a href="javascript:;">
+            <div class="proimg">
+              <img src="images/eighthpro.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>【茅台商城预约购买】贵州茅台酒（新飞天）53%vol 500ml（商品编号：741）</p>
+              <span>￥1,499.00</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="fot_top">
+  <div class="con">
+    <div class="top">
+      <ul>
+        <li>
+          <div class="img">
+            <img src="images/foticon.png" alt="">
+          </div>
+          <span>正品保证，假一赔十</span>
+          <div style="clera:both;"></div>
+        </li>
+        <li>
+          <div class="img">
+            <img src="images/foticon1.png" alt="">
+          </div>
+          <span>提供发票，正规机打</span>
+          <div style="clera:both;"></div>
+        </li>
+        <li>
+          <div class="img">
+            <img src="images/foticon2.png" alt="">
+          </div>
+          <span>官方直供，直邮到家</span>
+          <div style="clera:both;"></div>
+        </li>
+        <li>
+          <div class="img">
+            <img src="images/foticon3.png" alt="">
+          </div>
+          <span>真诚服务，顾客至上</span>
+          <div style="clera:both;"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="bottom">
+      <div class="bot_left">
+        <div class="list">
+          <h3><a href="javascript:;">物流配送</a></h3>
+          <ul>
+            <li><a href="javascript:;">配送方式</a></li>
+            <li><a href="javascript:;">配送时间</a></li>
+            <li><a href="javascript:;">配送运费</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <h3><a href="javascript:;">商城指南</a></h3>
+          <ul>
+            <li><a href="javascript:;">积分政策</a></li>
+            <li><a href="javascript:;">茅台商城服务协议</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <h3><a href="javascript:;">售后服务</a></h3>
+          <ul>
+            <li><a href="javascript:;">退换货说明</a></li>
+            <li><a href="javascript:;">购物须知</a></li>
+            <li><a href="javascript:;">关于专票</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <h3><a href="javascript:;">营销网络</a></h3>
+          <ul>
+            <li><a href="javascript:;">国内经销商</a></li>
+            <li><a href="javascript:;">国际经销商</a></li>
+          </ul>
+        </div>
+        <div class="list">
+          <h3><a href="javascript:;">个关于我们</a></h3>
+          <ul>
+            <li><a href="javascript:;">公司资质</a></li>
+            <li><a href="javascript:;">文化理念</a></li>
+            <li><a href="javascript:;">关于我们</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bot_right">
+        <p>400-1000-799</p>
+        <span>每日9:00-22:00在线服务</span>
+        <div class="online">
+          <a href="javascript:;">咨询在线客服</a>
+        </div>
+        <span>cuijie@emaotai.cn  精品入驻 商务联系</span>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="con">
+    <div class="left">
+      <div class="link">
+        <a href="javascript:;javascript:;">商城首页<i>|</i></a>
+        <a href="javascript:;javascript:;">贵州茅台集团<i>|</i></a>
+        <a href="javascript:;javascript:;">打假维权</a>
+      </div>
+      <div class="copyright">
+      Copyright 2014-2018©贵州茅台集团电子商务股份有限公司<br>
+      增值电信业务经营许可证: 黔B2-20180022    黔ICP备10001658号-1 
+        <img src="images/police.png" alt="">
+      贵公网安备 52011502000337号<br>
+      公司地址：贵州省贵阳市观山湖区湖滨路10号翔明大厦10楼<br>
+      购买前请确认达到法定饮酒年龄！茅台商城不销售任何含酒精产品给18岁以下人士！
+      </div>
+    </div>
+    <div class="right">
+      <a href="javascript:;javascript:;">
+        <img src="images/ma.png" alt="">
+        <div>微信商城</div>
+      </a>
+      <a href="javascript:;javascript:;">
+        <img src="images/ma.png" alt="">
+        <div>微信订阅号</div>
+      </a>
+      <a href="javascript:;javascript:;">
+        <img src="images/sina.png" alt="">
+        <div class="fllow">
+          <img src="images/follow.jpg" alt="">
+        </div>
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
-    <!-- inject:js -->
-    <script src="/index/js/index.min.js"></script>
-    <script src="/index/js/vendor.min.js"></script>
-    <!-- endinject -->
+<script type="text/javascript">
+  $("header").load('../common/common.html');
+</script>
+  <script src="js/index.min.js"></script>
 </html>

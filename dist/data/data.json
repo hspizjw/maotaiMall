@@ -1,0 +1,217 @@
+[{
+  "proid": 1,
+  "prodes" :{
+    "probrand": "茅台王子酒",
+    "proname": "茅台王子酒 53%vol 500ml【二维码】【茅台商城】",
+    "proprice": "168",
+    "prolimit": "6",
+    "taste": "酱香",
+    "savenum": "1126",
+    "desimg": [
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/MwbdT57jXk.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/Ez67bzecbD.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/FNDQdW4JEt.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/dbj2bkSBrh.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/xXDm5Hm3p5.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/mKdAkp7kbk.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/bEdhe6WfjW.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/DXwE3rZKTe.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/eFtNtCEnkS.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/zZrstxDHtn.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/r7CWZiBF7C.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/6kHE2d78rH.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/ZQNt88axAT.jpg"
+    ],
+    "proimg": [{
+      "imgid":1 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/ZKmZMWkNfZ.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/ZKmZMWkNfZ.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/ZKmZMWkNfZ.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":2 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/3RkE3CNpTt.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/3RkE3CNpTt.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/3RkE3CNpTt.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":3 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/2QsNW3jnSf.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/2QsNW3jnSf.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/2QsNW3jnSf.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":4 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/eJc4EXp2d4.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/eJc4EXp2d4.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/eJc4EXp2d4.jpg?x-oss-process=image/resize,w_68,h_68"
+    }]
+  }
+},
+{
+  "proid": 2,
+  "prodes" :{
+    "probrand": "茅台迎宾酒",
+    "proname": "茅台迎宾酒 53%vol 500ml",
+    "proprice": "108",
+    "prolimit": "99",
+    "taste": "酱香",
+    "savenum": "116",
+    "desimg": [
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/rEDSnBN84Y.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/Jm2HC3mTER.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/83ZpW3E44a.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/N2CbBNfMG2.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/JjC7mkZHED.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/3k7pKY36Qf.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/ZxZfPT2yjQ.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/KXWfipZH2m.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/WcBpKxDJTf.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/HRiA5WktSX.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/QnSNykHZjQ.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/mJrTxnfTXD.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/N6MD3jKzDP.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/Az4DHjHydm.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/7ryCfEBb5y.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/jtyH5e8SAX.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/WQehMZ224N.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/yzwXy4A7G8.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/skkZ6TRKW5.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/8Ci3PHzDNG.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/j6beK3PGD7.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/BtwQDb6rWG.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/h6PYM4xFHN.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/aCJ3YRpSbe.jpg"
+    ],
+    "proimg": [{
+      "imgid":1 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/4CjEEsD6sn.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/4CjEEsD6sn.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/4CjEEsD6sn.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":2 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/63kz2pNfA2.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/63kz2pNfA2.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/63kz2pNfA2.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":3 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/CmtFJkGHMw.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/CmtFJkGHMw.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/CmtFJkGHMw.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":4 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/xPrThXTm7T.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/xPrThXTm7T.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/xPrThXTm7T.jpg?x-oss-process=image/resize,w_68,h_68"
+    }]
+  }
+},
+{
+  "proid": 3,
+  "prodes" :{
+    "probrand": "赖茅酒",
+    "proname": "赖茅酒（传承）53%vol 500ml",
+    "proprice": "458",
+    "prolimit": "6",
+    "taste": "酱香",
+    "savenum": "561",
+    "desimg": [
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/tR8f4paJ6y.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/FXbZEQYZ6T.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/dJPDHdedCZ.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/fMWBBJ22Qd.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/bTc5QjJHWK.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/rQFfaSw52k.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/BrbBPPKwQA.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/2EjnGWWnts.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/rZKQSRXQ5w.jpg"
+    ],
+    "proimg": [{
+      "imgid":1 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/trt3b6Bx4T.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/trt3b6Bx4T.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/trt3b6Bx4T.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":2 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/AeRE25sTDe.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/AeRE25sTDe.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/AeRE25sTDe.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":3 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/cMF6aA5TXH.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/cMF6aA5TXH.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/cMF6aA5TXH.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":4 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/Yc7k65tTdj.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/Yc7k65tTdj.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/Yc7k65tTdj.jpg?x-oss-process=image/resize,w_68,h_68"
+    }
+    ]
+  }
+},
+{
+  "proid": 4,
+  "prodes" :{
+    "probrand": "习酒",
+    "proname": "习酒 印象遵义（红色）52%vol 500ml",
+    "proprice": "168",
+    "prolimit": "99",
+    "taste": "浓香",
+    "savenum": "131",
+    "desimg": [
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/3jkn4tHaTF.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/h8TkZSBrFA.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/AJmtDh5az7.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/ATKaH2mEEa.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/ed4iQxmaSh.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/4TyYzbAdGY.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/y2TzhTkB46.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/bApE3wRbeG.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/AF2Sm3kFZc.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/X6spwGETF5.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/Nei27KJ6Zi.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/sjA6dhRmR8.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/pEEiZJWZDf.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/tsxwWehCPy.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/aDBQGRiyQQ.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/iGwZQct4Q5.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/RZXYB6ATzy.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/BYhtHQzACK.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/N2CNQanKdc.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/KB4Sft8MPS.jpg",
+      "https://prod-oss.emaotai.cn/supplychain-dev/test/undefined/KxGiZYJrMd.jpg"
+    ],
+    "proimg": [{
+      "imgid":1 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/WNf54JkFKj.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/WNf54JkFKj.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/WNf54JkFKj.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":2 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/3mpSyMz73A.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/3mpSyMz73A.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/3mpSyMz73A.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":3 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/GKb4RSS7sD.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/GKb4RSS7sD.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/GKb4RSS7sD.jpg?x-oss-process=image/resize,w_68,h_68"
+    },
+    {
+      "imgid":4 ,
+      "smallimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/3mpSyMz73A.jpg?x-oss-process=image/resize,w_420,h_420",
+      "bigimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/Ft5xz3FiQH.jpg?x-oss-process=image/resize,w_840,h_840",
+      "botimg": "https://prod-oss.emaotai.cn/supplychain-dev/test/img/Ft5xz3FiQH.jpg?x-oss-process=image/resize,w_68,h_68"
+    }
+    ]
+  }
+}]

@@ -1,0 +1,229 @@
+*{
+  margin:0;
+  padding:0;
+}
+a{
+  cursor:pointer;
+}
+ol,li,ul{
+  list-style:none;
+}
+body,html{
+  font-size:12px;
+  color:#333;
+}
+.main{
+  .main_con{
+    width:1190px;
+    margin:0 auto;
+    .list_top{
+      width: 1190px;
+      height: 40px;
+      .top_left{
+        color: #CC3341;
+        width: 70px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        border-bottom: 2px solid #CC3341;
+        float: left;
+      }
+    }
+    .list_title{
+      width: 1190px;
+      height: 40px;
+      line-height: 40px;
+      background: #F6F6F6;
+      border: 1px solid #EBEBEB;
+      .all_check{
+        display: block;
+        float: left;
+        margin-left: 10px;
+      }
+      span{
+        display: block;
+        float: left;
+        margin-left: 115px;
+      }
+      span:first-child{
+        margin-left: 178px;
+      }
+      span:nth-of-type(2){
+        margin-left: 360px;
+      }
+    }
+    .list_con{
+      padding-top:20px;
+      .list_mall{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        color: #000;
+        font-weight: 700;
+        .all_check{
+          input{
+
+          }
+        }
+      }
+    }
+    .list{
+      border: 1px solid #F7F7F7;
+      width: 1190px;
+      height: auto;
+      .pro_list{
+        overflow:hidden;
+        padding: 20px 26px;
+        background: #FFF;
+        border-bottom: 1px solid #EDEDED;
+        .pro_list_left{
+          float: left;
+          width: 500px;
+          position: relative;
+           input{
+              float:left;
+            }
+          .list_img{
+            width: 80px;
+            height: 80px;
+            border: 1px solid #F7F7F7;
+            float: left;
+            margin-left: 6px;
+            overflow: hidden;
+            img{
+              width: 100%;
+              max-width: 100%;
+              height: 100%;
+            }
+          }
+          .list_pro_des{
+            height:100%;
+            width: 208px;
+            float: left;
+            margin-left: 10px;
+            a{
+              color: #666;
+            }
+            span{
+             display: block;
+              margin-bottom: 5px;
+            }
+            .pro_back{
+              img{
+                float: left;
+                margin-top: 4px;
+                margin-right: 5px;
+                width: 15px;
+                height: 15px;
+              }
+              span{
+                display: block;
+                margin-bottom: 5px;
+              }
+            }
+          }
+        }
+        .pro_price{
+            float: left;
+            min-width: 50px;
+            height: 50px;
+          }
+          .pro_num{
+            float: left;
+            width: 100px;
+            height: 50px;
+            margin-left: 80px;
+            a{
+              margin-left: -1px;
+              display: block;
+              width: 23px;
+              height: 23px;
+              text-align: center;
+              line-height: 23px;
+              border: 1px solid #F7F7F7;
+              float: left;
+              color: #C1C1C1;
+            }
+            input{
+              width: 38px;
+              height: 23px;
+              text-align: center;
+              line-height: 23px;
+              border: 1px solid #F7F7F7;
+              float: left;
+              margin-left: -1px;
+              color: #666;
+            }
+          }
+          .sum_price{
+            float: left;
+            width: 100px;
+            height: 50px;
+            margin-left: 54px;
+            font-weight: 600;
+            color: #CC3341;
+          }
+          .delete{
+            float: left;
+            width: 87px;
+            height: 50px;
+            margin-left: 40px;
+            text-align: left;
+            a{
+              display: block;
+              color: #666;
+            }
+          }
+      }
+    }
+    .list_setting{
+      margin-top: 20px;
+      height: 60px;
+      width: 1190px;
+      background: #FFFBFC;
+      border: 1px solid #FFCBD0;
+      .set_left{
+        float: left;
+        height: 60px;
+        line-height: 60px;
+        .all_check{
+          float: left;
+          margin-left: 10px;
+          margin-right: 15px;
+        }
+        a{
+          margin-right: 15px;
+          float: left;
+          color:#333;
+        }
+      }
+      .set_right{
+        float: right;
+        a{
+          float: right;
+          display: block;
+          width: 180px;
+          height: 60px;
+          line-height: 60px;
+          text-indent: 70px;
+          background: url(https://prod-oss.emaotai.cn/front-assets/assets/image/cart/gopay.png) 36px center no-repeat #CC3341;
+          font-size: 20px;
+          color: #FFF;
+        }
+        .computed{
+          float: right;
+          height: 60px;
+          line-height: 60px;
+          margin-right: 20px;
+          span{
+            color: #CC3341;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
